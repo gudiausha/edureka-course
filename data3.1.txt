@@ -1,0 +1,10 @@
+adding second file to feature1. this is to check the rebase option. it shld be of type: file1--file2--file3--file4 now. here 
+		file1 --> commit on master
+		file2 --> commit on feature
+		file3 --> commit n maste
+		file4 --> commit on feature
+
+but afte rebase, i think it will change as :
+file1--file2--file2--file4
+
+
