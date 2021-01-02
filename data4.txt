@@ -1,0 +1,21 @@
+class 4 recording hands-on:
+Jenkins (actually must have been covered by eudreka in 3rd class)
+CI:
+Develop-->commit-->build-->test-->deploy>>develop
+
+Installation of Jenkins:
+1. Install Java (any version of java will do) :
+	1. yum install java-1.8.0-openjdk-devel
+	2. set the environment variable
+		1. type alternatives --config java
+		2. copy the path
+		3. vim /etc/profile
+		4. type following commands:
+			export JAVA_HOME=path
+			export PATH=$JAVA_HOME/bin:$PATH
+		5. source /etc/profile & check with echo JAVA_HOME
+2. Install Jenkins:
+	1.to check dist : cat /etc/os-release
+	2.follow the steps mentioned in jenkins.io website for ur distributin
+
+		
