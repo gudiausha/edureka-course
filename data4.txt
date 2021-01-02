@@ -17,5 +17,14 @@ Installation of Jenkins:
 2. Install Jenkins:
 	1.to check dist : cat /etc/os-release
 	2.follow the steps mentioned in jenkins.io website for ur distributin
+3. To start jenkins:
+	1.systemctl start jenkins
+	2.go to browser publicaddress:8080
 
+Learnt in Class-4 Rec:
+1. Creating a job
+2. Trigger by poll SCM
+3. Trigger by timer
+4. Backend work: /var/lib/jenkins/workspace & config.xml
+5. Debugged an error while configuring security
 		
